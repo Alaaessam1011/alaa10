@@ -1,0 +1,788 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* font */
+
+@font-face {
+    font-family: Mulish-Light;
+    src: url(../font/Mulish/Mulish-Light.ttf);
+}
+
+@font-face {
+    font-family: Mulish-Regular;
+    src: url(../font/Mulish/Mulish-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mulish-Medium;
+    src: url(../font/Mulish/Mulish-Medium.ttf);
+}
+
+@font-face {
+    font-family: Mulish-Bold;
+    src: url(../font/Mulish/Mulish-Bold.ttf);
+}
+
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+}
+
+body {
+    width: 80%;
+    margin-inline: auto;
+}
+
+/* .container_header 1 */
+
+
+
+.container span {
+    font-size: 24px;
+}
+
+nav {
+    padding-top: 56px;
+    margin-bottom: 70px;
+}
+
+.navbar_links {
+
+    list-style-type: none;
+    float: right;
+}
+
+.navbar_links .nav_link {
+    display: inline-block;
+    margin-inline-end: 30px;
+
+}
+
+
+.navbar_links .nav_link a {
+    font-size: 18px;
+    color: #1F1534;
+    opacity: .5;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar_links .active {
+    opacity: 1;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    display: inline-block;
+    margin-inline-end: 30px;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+.header {
+    background-image: url(element.png);
+    background-repeat: no-repeat;
+    background-position: left top 55px;
+}
+
+
+.main_img {
+    background-image: url(c:\Users\Administrator\Desktop\element.svg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.background1 {
+    position: absolute;
+    left: -180px
+}
+
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 70px;
+}
+
+.header_image {
+    max-width: 50%;
+}
+
+.header_text {
+    max-width: 50%;
+    margin-inline: 6%;
+}
+
+.header_text h1 {
+    max-width: 80%;
+    font-size: 48px;
+
+}
+
+.header_text p {
+    max-width: 390px;
+    font-size: 21px;
+    color: #7D7987;
+    margin-top: 20px;
+}
+
+
+
+
+button {
+    display: inline-block;
+    border-radius: 55px;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    padding-block: 16px;
+}
+
+.primary_button {
+    color: #FFF;
+    background: #458FF6;
+    margin-top: 50px;
+    border-color: blue;
+}
+
+
+
+
+
+
+/* span [our_servies] */
+
+.our_servies {
+
+    /* padding-block: 100px; */
+    background-image: url(c:\Users\Administrator\Desktop\Vector1.svg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.our_servies_img {
+    position: absolute;
+    top: 220%;
+    /* transform: translate(-53%); */
+    z-index: -1;
+    left: -170px;
+}
+
+.our_servies h2 {
+
+
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    font-size: 36px;
+    margin-top: 95px;
+    position: relative;
+}
+
+.our_servies h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -24px;
+    transform: translateX(-50%);
+    width: 65px;
+    height: 2px;
+    border-radius: 5px;
+    background: #000000;
+
+}
+
+.our_servies p {
+    text-align: center;
+    width: 855px;
+    margin: auto;
+    font-size: 18px;
+    color: #7D7987;
+    margin-top: 55px;
+}
+
+/* cards */
+
+.cards {
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 200px;
+    margin-bottom: -150px;
+    background-image: url(c:\Users\Administrator\Desktop\element3.svg);
+    background-repeat:no-repeat;
+    position: relative;
+}
+
+
+.background2 {
+    position: absolute;
+    top: 45%;
+    transform: translate(51%);
+    z-index: -1;
+    right: 450px;
+}
+
+
+.card {
+    width: calc(100% / 3 - 3 * 2 * 17px);
+    border-radius: 20px;
+    margin: 15px;
+    box-shadow: 2px 2px 7px 3px rgba(229, 233, 246, 0.4);
+    background-color: white;
+}
+
+.sigle_card {
+    margin: 30px 20px;
+}
+
+.card_img {
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+.card p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #7D7987;
+    width: 75%;
+
+}
+
+
+.second_primary {
+    margin-inline-start: 40%;
+    border-color: #458FF6;
+    color: #458FF6;
+    background: #FFF;
+    margin-bottom: 200px;
+}
+
+
+
+
+/* .container_header2 */
+
+
+.container_header2 {
+    display: flex;
+    align-items: center;
+    padding: 80px 70px;
+    margin-inline: 30px;
+
+}
+
+.header2_image {
+    max-width: 100%;
+}
+
+.header2_text {
+    max-width: 500px;
+    margin-inline-start: 120px;
+}
+
+.header2_text h2 {
+    font-size: 36px;
+    max-width: 300px;
+    position: relative;
+
+}
+
+.header2_text h2::after {
+    content: '';
+    position: absolute;
+    left: 12%;
+    bottom: -24px;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 2.5px;
+    border-radius: 5px;
+    background: #000000;
+}
+
+.header2_text p {
+    font-size: 18px;
+    max-width: 380px;
+    color: #7D7987;
+    margin-top: 60px;
+}
+
+.three_primary {
+    margin-top: 45px;
+    border-color: #458FF6;
+    color: #458FF6;
+    background: #FFF;
+}
+
+
+/* .container_header3 */
+
+.container_header3 {
+    display: flex;
+    align-items: center;
+    padding: 70px 170px;
+    padding-block: 150px;
+    background-image: url(c:\Users\Administrator\Desktop\element2.svg);
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.background4 {
+    position: absolute;
+    top: -70px;
+    transform: translate(51%);
+    z-index: -1;
+    right: -150px;
+}
+
+
+
+
+.header3_image {
+    max-width: 100%;
+    margin-inline-start: 120px;
+}
+
+.header3_text {
+    max-width: 50%;
+}
+
+.header3_text h2 {
+    font-size: 36px;
+    max-width: 300px;
+    position: relative;
+
+}
+
+.header3_text h2::after {
+    content: '';
+    position: absolute;
+    left: 12%;
+    bottom: -24px;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 3px;
+    border-radius: 5px;
+    background: #000000;
+}
+
+.header3_text p {
+    font-size: 18px;
+    max-width: 330px;
+    color: #7D7987;
+    margin-top: 60px;
+}
+
+.four_primary {
+    margin-top: 45px;
+    border-color: #458FF6;
+    color: #458FF6;
+    background: #FFF;
+}
+
+.header3_text .arrow {
+    font-size: 1.3em;
+    height: 9.82px;
+    margin-inline-start: 20px;
+    color: #4089ed;
+    ;
+}
+
+
+/* menu 1 */
+
+
+
+
+.menu {
+    background-color: #4089ED;
+    height: 450px;
+    width: 1120px;
+    left: 150px;
+    margin-top: 200px;
+    border-radius: 55px;
+    text-align: center;
+  background-image: url(:\Users\Administrator\Desktop\Newfolder\arrownav.svg);
+    background-repeat: no-repeat;
+    position: relative;
+  
+
+}
+.menu_img{
+    background-image: url(:\Users\Administrator\Desktop\Newfolder\arrownav.svg);
+    position: absolute;
+    left: 80px;
+    top: 30;
+    transform: translate(51%);
+    z-index: -1;
+}
+
+
+
+.menu_background {
+    position: absolute;
+    left: 80px;
+    top: 30;
+    transform: translate(51%);
+    z-index: -1;
+}
+
+.menu_background2 {
+    right: 80px;
+    position: absolute;
+    top: 30;
+    transform: translate(51%);
+    z-index: -1;
+}
+
+.menu h3 {
+    color: #FFFFFF;
+    font-size: 36px;
+    padding-block: 60px;
+    position: relative;
+
+}
+
+.menu h3::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background: #FFFFFF;
+}
+
+.menu_text {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-inline: 200px;
+}
+
+
+.menu_text .p1 {
+    width: 50%;
+    margin-left: 220px;
+}
+
+.menu_text h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.menu_text p {
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+
+.menu_text img {
+    margin-right: -300px;
+}
+
+.menu_text2 p {
+    color: #FFFFFF;
+    font-size: 19px;
+    width: 350px;
+    height: 120px;
+    Font: Muli;
+    line-height: 30px;
+
+}
+
+
+.menu_img {
+    margin-bottom: 200px;
+    width: 300px;
+}
+
+
+/* span [check] */
+
+.check h2 {
+    font-size: 36px;
+    color: #000000;
+    width: 484px;
+    font-weight: 700;
+    margin-inline-start: 35%;
+    padding-block: 100px;
+    position: relative;
+
+}
+
+.check h2::after {
+
+
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 70px;
+    transform: translateX(-50%);
+    width: 56px;
+    height: 3px;
+    border-radius: 5px;
+    background: #000000;
+
+}
+
+/* box 2 */
+
+.boxes {
+    display: flex;
+    margin-inline: auto;
+    padding: 10px;
+    background-image: url(c:\Users\Administrator\Desktop\Vector.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url(c:\Users\Administrator\Desktop\element (5).svg);
+
+}
+
+.box_background {
+
+    position: absolute;
+
+    z-index: -1;
+    right: -190px;
+}
+
+.box_background2 {
+    position: absolute;
+    left: -80px;
+    position: absolute;
+    top: 0;
+    transform: translate(51%);
+    z-index: -1;
+}
+
+.box {
+    margin: 32px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px 2px rgba(229, 233, 246, 0.4);
+    position: relative;
+    background-color: white;
+}
+
+.box_image {
+    position: absolute;
+
+}
+
+.box_img {
+    width: 100%;
+
+}
+
+.box_text {
+    padding: 20px;
+    width: 70%;
+}
+
+.box_text h2 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.box_text p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #7D7987;
+
+}
+
+.span_button {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: left;
+    border-color: white;
+    background-color: white;
+    color: #4089ED;
+    margin-bottom: 15px;
+
+}
+
+
+.span_button .arrow {
+    font-size: 1.3em;
+    height: 9.82px;
+    margin-inline-start: 20px;
+    color: #4089ed;
+}
+
+.five_primpary {
+    margin-top: 45px;
+    border-color: #458FF6;
+    color: #458FF6;
+    background: #FFF;
+    margin-inline-start: 40%;
+    margin-bottom: 250px;
+}
+
+
+/* menu 2 */
+
+
+.menu2 {
+    background-color: #458FF6;
+    color: #FFFFFF;
+    margin: -200px;
+    background-image: url(c:\Users\Administrator\Desktop\element (6).svg);
+    background-repeat: no-repeat;
+    background-image: url(c:\Users\Administrator\Desktop\element (6).svg);
+    position: relative;
+
+
+}
+
+.img_footer {
+    position: absolute;
+    right: 170px;
+    top: -70px;
+    transform: translate(51%);
+    z-index: -1;
+
+}
+
+.img_footer2 {
+    position: absolute;
+    left: 3px;
+    bottom: 0%;
+    z-index: 1;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 41px;
+    height: 41px;
+    background-color: white;
+    color: #2a91f4;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menu2_text2 {
+    margin-inline-end: 100px;
+
+}
+
+
+.menu2_text3 {
+    margin-inline-end: 100px;
+
+}
+
+
+.menu2_text4 {
+    margin-inline-end: 100px;
+
+}
+
+
+.menu2_text1 {
+    margin-inline-end: 200px;
+
+}
+
+
+.menu2_text1 h3 {
+    font-size: 24px;
+}
+
+.menu2_text1 p span {
+    font-size: 18px;
+}
+
+.menu2_text1 p {
+    margin-bottom: 50px;
+    max-width: 300px;
+}
+
+
+.menu2_texts {
+    display: flex;
+    margin-inline-start: 100px;
+    padding-block: 100px;
+
+
+}
+
+.menu2_text2 h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.menu2_text2 p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-bottom: 10px;
+
+
+}
+
+.menu2_text3 h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.menu2_text3 p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+.menu2_text4 h3 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.menu2_text4 p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-bottom: 10px;
+
+}
